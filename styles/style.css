@@ -1,0 +1,46 @@
+body {
+  background-color: #D8BFD8;
+}
+
+.titulo {
+  color: #CF69B4;
+  font-family: cursive;
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.imagem_principal {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1.87rem;
+  width: 37.5rem;
+}
+
+.saudacao {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 2.5rem;
+  color: #D74B76;
+  font-family: "Irish Grover", system-ui;
+}
+
+.botoes{
+  font-size: 45px;
+  text-decoration: none;
+  padding: 12px;
+  border-top: 4px solid #FB6D48;
+  border-left: 4px solid #FB6D48;
+  border-right: 4px solid #FB6D48;
+  box-shadow: 10px 20px grey;
+  background-color: #FFAF45;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.botoes:hover {
+  border-top: 4px solid #FFAF45;
+  border-left: 4px solid #FFAF45;
+  border-right: 4px solid #FFAF45;
+  background-color: #FB6D48;
+  transition: 1s; /*adiciona uma transição na mudança de estilo */
+}
