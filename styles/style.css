@@ -24,23 +24,57 @@ body {
   font-family: "Irish Grover", system-ui;
 }
 
+.button {
+  display: flex;
+}
+
 .botoes{
-  font-size: 45px;
+  font-size: 2.25rem;
   text-decoration: none;
-  padding: 12px;
-  border-top: 4px solid #FB6D48;
-  border-left: 4px solid #FB6D48;
-  border-right: 4px solid #FB6D48;
-  box-shadow: 10px 20px grey;
+  text-align: center;
+  padding: 0.75rem;
+  width: 25rem;
+  height: 3.5rem;
+  gap: 0.75rem;
+  margin-top: 12.5rem;
+  margin-bottom: 3.125rem;
+  border: 0.25rem solid #FB6D48;
+  box-shadow: 0.625rem 1.25rem grey;
   background-color: #FFAF45;
   transition: 1s;
   cursor: pointer;
 }
 
 .botoes:hover {
-  border-top: 4px solid #FFAF45;
-  border-left: 4px solid #FFAF45;
-  border-right: 4px solid #FFAF45;
+  border: 0.25rem solid #FFAF45;
   background-color: #FB6D48;
   transition: 1s; /*adiciona uma transição na mudança de estilo */
+}
+
+.posts{
+  padding: 3rem;
+  width: 20rem;
+  height: 20rem;
+  transition: 0.5s;
+}
+
+.imagens {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 76rem;
+  border: 0.06rem solid grey;
+}
+
+.posts:hover{
+  transform: scale(1.3);
+}
+
+@media (max-width: 1200px) {
+  .saudacao {
+    font-size: 2.01rem;
+  }
+  
+  .imagem_principal{
+    width: 30rem;
+  }
 }
